@@ -1,0 +1,39 @@
+//
+//  1752Weibo-Prefix.pch
+//  1752Weibo
+//
+//  Created by 董兴斌 on 16/2/1.
+//  Copyright © 2016年 董兴斌. All rights reserved.
+//
+
+#ifndef _752Weibo_Prefix_pch
+#define _752Weibo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* _752Weibo_Prefix_pch */
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <QuartzCore/QuartzCore.h>
+#import<CoreText/CoreText.h>
+#endif
+
+#import "WXHLGlobalUICommon.h"
+#import "CONSTS.h"
+#import "UIViewExt.h"
+#import "UIView+Additions.h"
+
+//获取设备物理高度
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+//获取设备物理宽度
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
