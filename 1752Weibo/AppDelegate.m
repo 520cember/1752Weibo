@@ -1,9 +1,9 @@
 //
 //  AppDelegate.m
-//  WXWeibo
+//  1752WXWeibo
 //
-//  Created by 张 启迪 on 13-8-15.
-//  Copyright (c) 2013年 张 启迪. All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -39,7 +39,8 @@
     [self.window makeKeyAndVisible];
     
     //状态栏的背景色不随导航的背景色改变,固定为不透明黑色
-    [UIApplication sharedApplication].statusBarStyle=UIStatusBarStyleBlackOpaque;
+//    [UIApplication sharedApplication].statusBarStyle=UIStatusBarStyleLightContent;
+//    [UIApplication sharedApplication].idleTimerDisabled=true;
     
     //读取主题
     [self setTheme];

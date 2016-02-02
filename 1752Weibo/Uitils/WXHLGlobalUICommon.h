@@ -1,9 +1,9 @@
 //
 //  WXHLGlobalUICommon.h
-//  WXMovie
+//  1752WXWeibo
 //
-//  Created by xiongbiao on 12-12-11.
-//  Copyright (c) 2012年 www.iphonetrain.com 无限互联3G学院. All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

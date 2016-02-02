@@ -1,9 +1,9 @@
 //
 //  BaseViewController.m
-//  WXWeibo
+//  1752WXWeibo
 //
-//  Created by 张 启迪 on 13-8-15.
-//  Copyright (c) 2013年 张 启迪. All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "BaseViewController.h"
@@ -165,7 +165,7 @@
         self.tipWindow=[[[UIWindow alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 20)] autorelease];
         //设置同状态栏一样的级别
         self.tipWindow.windowLevel=UIWindowLevelStatusBar;
-        self.tipWindow.backgroundColor=[UIColor blackColor];
+        self.tipWindow.backgroundColor=[UIColor orangeColor];
         
         UILabel *tipLabel=[[[UILabel alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 20)] autorelease];
         tipLabel.textAlignment=UITextAlignmentCenter;

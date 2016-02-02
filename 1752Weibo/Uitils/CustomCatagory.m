@@ -1,9 +1,9 @@
 //
 //  CustomCatagory.m
-//  WXMovie
+//  1752WXWeibo
 //
-//  Created by wei.chen on 12-7-2.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "CustomCatagory.h"

@@ -1,9 +1,10 @@
 //
 //  MainViewController.m
-//  WXWeibo
+
+//  1752WXWeibo
 //
-//  Created by 张 启迪 on 13-8-15.
-//  Copyright (c) 2013年 张 启迪. All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "MainViewController.h"
@@ -109,7 +110,7 @@
 //初始化TabBar工具栏
 - (void)_initTabBarView
 {
-    self.tabBarView=[[[UIView alloc] initWithFrame:CGRectMake(0, ScreenHeight-49-20, ScreenWidth, 49)] autorelease];
+    self.tabBarView=[[[UIView alloc] initWithFrame:CGRectMake(0, ScreenHeight-49, ScreenWidth, 49)] autorelease];
     //self.tabBarView.backgroundColor=[UIColor colorWithPatternImage:[UIImage imageNamed:@"tabbar_background.png"]];
     [self.view addSubview:self.tabBarView];
     

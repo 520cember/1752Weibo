@@ -1,11 +1,9 @@
 //
 //  MoreViewController.h
-//  WXWeibo
-
-//  更多控制器
-
-//  Created by 张 启迪 on 13-8-15.
-//  Copyright (c) 2013年 张 启迪. All rights reserved.
+//  1752WXWeibo
+//
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "BaseViewController.h"

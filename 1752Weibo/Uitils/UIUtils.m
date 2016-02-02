@@ -1,9 +1,9 @@
 //
 //  UIUtils.m
-//  WXTime
+//  1752WXWeibo
 //
-//  Created by wei.chen on 12-7-22.
-//  Copyright (c) 2012年 www.iphonetrain.com 无限互联ios开发培训中心 All rights reserved.
+//  Created by 董兴斌 on 16/2/2.
+//  Copyright © 2016年 董兴斌. All rights reserved.
 //
 
 #import "UIUtils.h"
